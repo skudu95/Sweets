@@ -12,4 +12,5 @@
     <string name="signup">Please fill up the form with valid information.</string>
     <string name="signIn">Please enter your login details.</string>
     <string name="searchArea">Let\'s try \nsome tasty desserts</string>
+    <string name="create_an_account">Create an account</string>
 </resources>

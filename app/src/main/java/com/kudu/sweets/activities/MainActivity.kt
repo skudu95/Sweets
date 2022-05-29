@@ -28,6 +28,14 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, "Twitter clicked", Toast.LENGTH_SHORT).show()
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.twitter.com")))
         }
+        //login button
+        binding.btnSignIn.setOnClickListener {
+            startActivity(Intent(this, LoginActivity::class.java))
+        }
+        //register button
+        binding.btnRegister.setOnClickListener {
+            startActivity(Intent(this, RegistrationActivity::class.java))
+        }
     }
 
 

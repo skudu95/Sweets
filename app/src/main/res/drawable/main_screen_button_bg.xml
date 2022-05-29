@@ -4,9 +4,12 @@
 
     <corners android:radius="30dp" />
 
+   <!-- <stroke android:color="@color/btn_color"
+        android:width="1dp"/>-->
+
     <gradient
-        android:angle="60"
-        android:endColor="@color/btn_color"
+        android:angle="45"
+        android:endColor="@color/btn_color_shade"
         android:startColor="@color/white"
         android:type="linear" />
 
